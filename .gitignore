@@ -3,3 +3,4 @@ log.txt
 game/cache
 game/saves
 traceback.txt
+*.rpyc
