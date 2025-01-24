@@ -209,12 +209,17 @@ screen choice(items):
 
     vbox:
         for i in items:
-            textbutton i.caption action i.action
+            textbutton i.caption:
+                action i.action
+                if i.chosen:
+                    style_prefix "seen_choice"
 
 
 style choice_vbox is vbox
 style choice_button is button
 style choice_button_text is button_text
+style seen_choice_button is choice_button
+style seen_choice_button_text is choice_button_text
 
 style choice_vbox:
     xalign 0.5
@@ -229,6 +234,8 @@ style choice_button is default:
 style choice_button_text is default:
     properties gui.text_properties("choice_button")
 
+style seen_choice_button_text:
+    color "#ff5555"
 
 ## Quick Menu screen ###########################################################
 ##
