@@ -62,3 +62,4 @@ label question1_blue:
     player "Definitely blue."
     player "She can't go anywhere without her favourite blue dress."
     host "Well, well, well! That's quite a lot of confidence you have there. But does it pay off?"
+    jump question1_correct
