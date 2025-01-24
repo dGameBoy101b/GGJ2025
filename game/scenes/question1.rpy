@@ -13,7 +13,7 @@ label question1:
             jump question1_yellow
         "green":
             jump question1_green
-        "blue":
+        "blue" (correct=True):
             jump question1_blue
 
 label question1_wrong:

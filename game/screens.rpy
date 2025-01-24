@@ -213,13 +213,19 @@ screen choice(items):
                 action i.action
                 if i.chosen:
                     style_prefix "seen_choice"
+                    if i.kwargs.get("correct", False):
+                        style_prefix "correct_seen_choice"
 
 
 style choice_vbox is vbox
 style choice_button is button
 style choice_button_text is button_text
+
 style seen_choice_button is choice_button
 style seen_choice_button_text is choice_button_text
+
+style correct_seen_choice_button is seen_choice_button
+style correct_seen_choice_button_text is seen_choice_button_text
 
 style choice_vbox:
     xalign 0.5
@@ -236,6 +242,9 @@ style choice_button_text is default:
 
 style seen_choice_button_text:
     color "#ff5555"
+
+style correct_seen_choice_button_text:
+    color "#55ff55"
 
 ## Quick Menu screen ###########################################################
 ##
