@@ -1,8 +1,7 @@
 init:
     image black = Solid("#000000")
     image shipwreck:
-        Placeholder("bg")
-        xzoom 2.0
-    image water = Placeholder("bg")
+        "backgrounds/shipwreck.jpg"
+    image water = "backgrounds/water.jpg"
     image beach = Placeholder("bg")
    
