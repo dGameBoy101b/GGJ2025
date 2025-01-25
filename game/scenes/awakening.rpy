@@ -1,7 +1,8 @@
 ﻿
 label start:
     $ player_name = "Me" #Ciel always forgets her own name
-
+    
+    play music shipwreck
     scene black
     player "Owww, my head..."
 
@@ -30,6 +31,7 @@ label start:
         anchor (0.5, 0.0)
         pos (0.5, 1.0)
         linear .1 align (0.5, 0.0)
+    play music gameshow
     host "She's your prize! If you can make it to the end of our fantabulous foray into your forgotten memories!"
     
     show shipwreck with vpunch

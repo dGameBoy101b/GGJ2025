@@ -25,18 +25,22 @@ label question3_wrong:
 
 label question3_correct:
 
+    play sound success
+    
     jump escape
 
 label question3_coffee:
     $ question3_coffee = True
     $ renpy.block_rollback()
 
+    play sound failure
     jump question3_wrong
 
 label question3_here:
     $ question3_here = True
     $ renpy.block_rollback()
-
+    
+    play sound failure
     jump question3_wrong
 
 label question3_art:
@@ -49,10 +53,12 @@ label question3_class:
     $ question3_class = True
     $ renpy.block_rollback()
 
+    play sound failure
     jump question3_wrong
 
 label question3_beach:
     $ question3_beach = True
     $ renpy.block_rollback()
 
+    play sound failure
     jump question3_wrong

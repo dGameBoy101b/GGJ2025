@@ -59,6 +59,7 @@ label question2_cordelia:
     player "Cordelia. Meaning daughter of the sea."
     host "Oh my, my, my~ however did you learn that little snippet of trivia, huh?"
     player "Ummm... I'm not sure actually. Just kind of came to me once I remembered her name."
+    play sound success
     jump question2_correct
 
 label question2_alex:
@@ -80,6 +81,7 @@ label question2_ember:
     host "Scandalous! Are we witnessing the budding of a passionate romance?!"
     "I feel blood rushing to my cheeks; eager to display my embarassment to whatever audience there might be here."
     host "Can she seduce our majestic judge?!"
+    play sound failure
     jump question2_wrong
 
 label question2_nia:
@@ -92,6 +94,7 @@ label question2_nia:
     host "What a charmer we have here folks! But tell us this, why Nia of all names?"
     player "Umm... Because it sounds cool...?"
     host "Fabulous! But lets see if this impresses the judge."
+    play sound failure
     jump question1_wrong
 
 label question2_zara:
@@ -102,4 +105,5 @@ label question2_zara:
     host "Quite a bold yet vague assessment there, care to expand upon it?"
     player "Ahh... I don't think I can. There's not any specific thing I put my finger on. Just that I hear Zara whenever I look at her."
     host "An aura or vibe one might say, huh? Or perhaps you've red her mind?!"
+    play sound failure
     jump question2_wrong
