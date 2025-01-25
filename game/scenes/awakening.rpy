@@ -1,5 +1,6 @@
 ﻿
 label start:
+    $ player_name = "Me" #Ciel always forgets her own name
 
     scene black
     player "Owww, my head..."
