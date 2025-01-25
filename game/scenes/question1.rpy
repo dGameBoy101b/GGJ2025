@@ -26,7 +26,7 @@ label question1_correct:
     hostage "She's right!"
     host "Well done! Round of applause!"
     host "Time for question 2."
-    return #jump question2
+    jump question2
 
 label question1_red:
     $ question1_red = True
