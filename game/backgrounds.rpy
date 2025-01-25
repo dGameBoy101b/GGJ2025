@@ -3,5 +3,5 @@ init:
     image shipwreck:
         "backgrounds/shipwreck.jpg"
     image water = "backgrounds/water.jpg"
-    image beach = Placeholder("bg")
+    image beach = "backgrounds/Beach.png"
    
