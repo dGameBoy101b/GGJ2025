@@ -5,6 +5,7 @@ init:
         who_color="#ff00ff", who_prefix="{outlinecolor=[host_outline_color]}", who_suffix="{/outlinecolor}")
     
     image host = "characters/Host/HostQuestioning.PNG"
+    image host questioning = "characters/Host/HostQuestioning.PNG"
     image host disbelief = "characters/Host/HostDisbelief.PNG"
     image host snarky = "characters/Host/HostSnarky.PNG"
     

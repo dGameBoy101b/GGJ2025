@@ -6,5 +6,6 @@ init:
         image="hostage")
 
     image hostage = "characters/Cordelia/CordeliaNeutral.PNG"
+    image hostage neutral = "characters/Cordelia/CordeliaNeutral.PNG"
     image hostage frustrated = "characters/Cordelia/CordeliaFrustrated.PNG"
     image hostage proud = "characters/Cordelia/CordeliaProud.PNG"
