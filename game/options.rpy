@@ -34,7 +34,7 @@ Made for Global Game Jam 2025 with the theme of "bubbles".
 
 Credits:
     dGameBoy101b: Programming & Writing
-    Bec: Audio & Art
+    Bakerr: Audio & Art
     cole-anyxanik: Background Art
     OpenJBox: Character Art
 """)
