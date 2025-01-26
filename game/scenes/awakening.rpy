@@ -1,6 +1,9 @@
-﻿
+﻿init:
+    default loop_count = 0
+
 label start:
     $ player_name = "Me" #Ciel always forgets her own name
+    $ loop_count += 1
     $ renpy.block_rollback()
     
     play music shipwreck
