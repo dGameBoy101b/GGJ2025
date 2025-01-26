@@ -35,7 +35,7 @@ Made for Global Game Jam 2025 with the theme of "bubbles".
 Credits:
     dGameBoy101b: Programming & Writing
     Bec: Audio & Art
-    Colecifer: Background Art
+    cole-anyxanik: Background Art
     openjuicebox: Character Art
 """)
 
@@ -150,7 +150,7 @@ default preferences.afm_time = 15
 ## This generally should not be changed, and if it is, should always be a
 ## literal string, not an expression.
 
-define config.save_directory = "GGJ2025-1737722995"
+define config.save_directory = "PopQuiz-1737722995"
 
 
 ## Icon ########################################################################
