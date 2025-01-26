@@ -378,9 +378,15 @@ screen main_menu():
     ## The use statement includes another screen inside this one. The actual
     ## contents of the main menu are in the navigation screen.
     use navigation
+    add "host questioning":
+        align (1.0, 1.0)
+    
+    add "images/TitleGraphics/DarkPop.png":
+        align (.5, 0.0)
+        ysize .7
+        fit "contain"
 
     if gui.show_name:
-
         vbox:
             style "main_menu_vbox"
 
