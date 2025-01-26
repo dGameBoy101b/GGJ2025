@@ -6,9 +6,9 @@ label start:
     $ loop_count += 1
     $ renpy.block_rollback()
     
-    play music shipwreck
+    play music shipwreck if_changed
     scene black
-    player "Owww, my head..."
+    player "{cps=*.5}Owww, my head...{/cps}"
 
     show shipwreck with moveintop
     player "Where am I?"
