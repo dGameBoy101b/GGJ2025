@@ -6,7 +6,7 @@ init:
         image="hostage")
 
     transform hostage_transform:
-        ysize 1000
+        ysize 1.0
         fit "contain"
 
     image hostage = At("characters/Cordelia/Cordelia_Sprites/Cordelia_Sprite_Defaultt.PNG", hostage_transform)
