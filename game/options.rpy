@@ -12,7 +12,7 @@
 ##
 ## The _() surrounding the string marks it as eligible for translation.
 
-define config.name = _("GGJ2025")
+define config.name = _("Pop Quiz")
 
 
 ## Determines if the title given above is shown on the main menu screen. Set
@@ -34,7 +34,7 @@ Made for Global Game Jam 2025 with the theme of "bubbles".
 
 Credits:
     dGameBoy101b: Programming & Writing
-    Bec: Audio
+    Bec: Audio & Art
     Colecifer: Background Art
     openjuicebox: Character Art
 """)
@@ -44,7 +44,7 @@ Credits:
 ## distribution. This must be ASCII-only, and must not contain spaces, colons,
 ## or semicolons.
 
-define build.name = "GGJ2025"
+define build.name = "PopQuiz"
 
 
 ## Sounds and music ############################################################
