@@ -27,7 +27,7 @@ label start:
     
     player "Not one bit."
     
-    show host:
+    show host snarky:
         anchor (0.5, 0.0)
         pos (0.5, 1.0)
         linear .1 align (0.5, 1.0)
@@ -38,7 +38,10 @@ label start:
     player "Ohmygod! What the fuck is that?!"
    
     $ host_name = "Host"
-    host "A bit rude... but I'm your wonderful host!\nHere to guide you through this splendiferous voyage!"
+    host -snarky "A bit rude... but I'm your wonderful host!\nHere to guide you through this splendiferous voyage!"
     "I need to get the hell out of here, away from these creeps!"
+
+    host snarky "Join me in a game of...{p}"
+    host "POP QUIZ!!!"
 
     jump question1

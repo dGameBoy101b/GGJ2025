@@ -36,7 +36,7 @@ Credits:
     dGameBoy101b: Programming & Writing
     Bec: Audio & Art
     cole-anyxanik: Background Art
-    openjuicebox: Character Art
+    OpenJBox: Character Art
 """)
 
 
