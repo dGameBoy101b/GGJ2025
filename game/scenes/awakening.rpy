@@ -1,6 +1,7 @@
 ﻿
 label start:
     $ player_name = "Me" #Ciel always forgets her own name
+    $ renpy.block_rollback()
     
     play music shipwreck
     scene black
