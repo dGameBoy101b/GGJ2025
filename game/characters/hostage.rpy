@@ -1,7 +1,8 @@
 init:
     define hostage_name = "hot girl"
+    define hostage_outline_color = "#5588ff"
     define hostage = Character(name="hostage_name", dynamic=True, 
-        who_color="#0000ff", who_prefix="{outlinecolor=#5588ff}", who_suffix="{/outlinecolor}", 
+        who_color="#0000ff", who_prefix="{outlinecolor=[hostage_outline_color]}", who_suffix="{/outlinecolor}", 
         image="hostage")
 
     image hostage = "characters/Cordelia/CordeliaNeutral.PNG"
