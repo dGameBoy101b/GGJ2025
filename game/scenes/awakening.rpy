@@ -13,14 +13,14 @@ label start:
     show eye opening zorder 1
     show shipwreck
     player "Where am I?"
-
+    
     show shipwreck:
         linear .5 xoffset -500
         pause 1
         linear .5 xoffset 0
-    show hostage neutral at offscreenleft:
+    show hostage bubble at offscreenleft:
         pause 1.5
-        linear .5 xalign 0.0
+        linear .5 xanchor 0.0
     extend "{nw=2.05}"
 
     hostage "I have no idea."
