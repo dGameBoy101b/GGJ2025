@@ -5,11 +5,13 @@ init:
         who_color="#0000ff", who_prefix="{outlinecolor=[hostage_outline_color]}", who_suffix="{/outlinecolor}", 
         image="hostage")
 
-    transform hostage_transform:
-        ysize 1.0
-        fit "contain"
-
-    image hostage = "hostage neutral"
-    image hostage neutral = At("characters/Cordelia/Cordelia_Sprites/Cordelia_Sprite_Defaultt.PNG", hostage_transform)
-    image hostage frustrated = At("characters/Cordelia/Cordelia_Sprites/Cordelia_Sprite_Upset.PNG", hostage_transform)
-    image hostage proud = At("characters/Cordelia/Cordelia_Sprites/Cordelia_Sprite_Proud.PNG", hostage_transform)
+    layeredimage hostage:
+        group emotion:
+            ysize 1.0
+            fit "contain"
+            attribute neutral default:
+                "characters/Cordelia/Cordelia_Sprites/Cordelia_Sprite_Defaultt.PNG"
+            attribute frustrated:
+                "characters/Cordelia/Cordelia_Sprites/Cordelia_Sprite_Upset.PNG"
+            attribute proud:
+                "characters/Cordelia/Cordelia_Sprites/Cordelia_Sprite_Proud.PNG"
