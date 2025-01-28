@@ -10,7 +10,8 @@ label start:
     scene black
     player "{cps=*.5}Owww, my head...{/cps}"
 
-    show shipwreck with moveintop
+    show eye opening zorder 1
+    show shipwreck
     player "Where am I?"
 
     show shipwreck:
