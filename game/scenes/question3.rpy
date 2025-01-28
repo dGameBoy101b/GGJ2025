@@ -63,6 +63,7 @@ label question3_art:
     play music shipwreck fadeout 1 fadein 1
     host disbelief "Gosh, what am I even doing?"
     extend " You should go."
+    show hostage -bubble
     "The bubbles surrounding myself and Cordelia pop. Leaving me struggling for air."
     call sleep
     "The last thing I see is Cordelia swimming over to me in a panic and scooping me up."
