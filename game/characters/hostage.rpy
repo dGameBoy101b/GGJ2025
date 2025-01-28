@@ -9,7 +9,7 @@ init:
         ysize 1.0
         fit "contain"
 
-    image hostage = At("characters/Cordelia/Cordelia_Sprites/Cordelia_Sprite_Defaultt.PNG", hostage_transform)
+    image hostage = "hostage neutral"
     image hostage neutral = At("characters/Cordelia/Cordelia_Sprites/Cordelia_Sprite_Defaultt.PNG", hostage_transform)
     image hostage frustrated = At("characters/Cordelia/Cordelia_Sprites/Cordelia_Sprite_Upset.PNG", hostage_transform)
     image hostage proud = At("characters/Cordelia/Cordelia_Sprites/Cordelia_Sprite_Proud.PNG", hostage_transform)
