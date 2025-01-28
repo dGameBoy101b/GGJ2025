@@ -11,19 +11,21 @@ init:
     define eye_delay = .5
 
     image eye closing:
-        "eye open" with Dissolve(eye_delay)
-        pause eye_delay
-        "eye mid" with Dissolve(eye_delay)
-        pause eye_delay
-        "eye closed" with Dissolve(eye_delay)
-        pause eye_delay
-        "black" with Dissolve(eye_delay)
+        on show, replace:
+            "eye open" with Dissolve(eye_delay)
+            pause eye_delay
+            "eye mid" with Dissolve(eye_delay)
+            pause eye_delay
+            "eye closed" with Dissolve(eye_delay)
+            pause eye_delay
+            "black" with Dissolve(eye_delay)
 
     image eye opening:
-        "eye closed" with Dissolve(eye_delay)
-        pause eye_delay
-        "eye mid" with Dissolve(eye_delay)
-        pause eye_delay
-        "eye open" with Dissolve(eye_delay)
-        pause eye_delay
-        "eye none" with Dissolve(eye_delay)
+        on show, replace:
+            "eye closed" with Dissolve(eye_delay)
+            pause eye_delay
+            "eye mid" with Dissolve(eye_delay)
+            pause eye_delay
+            "eye open" with Dissolve(eye_delay)
+            pause eye_delay
+            "eye none" with Dissolve(eye_delay)
