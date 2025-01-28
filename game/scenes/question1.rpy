@@ -22,8 +22,7 @@ label question1_wrong:
     host snarky "How unfortunate! Looks like it's time for your punishment!"
     player "Punishment?! You never said anything about a punishment!"
     host questioning "Oh don't worry, you won't feel a thing."
-    scene black with dissolve
-    play music shipwreck fadeout 3 fadein 1
+    call sleep
     "The adrenaline that's been racing through me seems to slow to a crawl."
     host "{cps=*.5}Just let it all wash away...{/cps}"
     jump start

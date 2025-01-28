@@ -42,8 +42,7 @@ label question3_here:
     player "Date? You mean I had a shot at someone as beautiful as you?!{w} And it worked?!"
     host disbelief "Ah, ah, ah! No spoilers my dear."
     host questioning "And it's bedtime for you young missy."
-    show black with dissolve
-    play music shipwreck fadeout 3 fadein 1
+    call sleep
     "Oh no... I'm pasing out again..."
     "{cps=*.5}I hope Cordelia won't be too mad at me...{/cps}"
     jump start
@@ -65,7 +64,7 @@ label question3_art:
     host disbelief "Gosh, what am I even doing?"
     extend " You should go."
     "The bubbles surrounding myself and Cordelia pop. Leaving me struggling for air."
-    scene black with disolve
+    call sleep
     "The last thing I see is Cordelia swimming over to me in a panic and scooping me up."
     host "{cps=*.5}Look after my dearest daughter...{/cps}"
     return #jump escape
@@ -94,8 +93,7 @@ label question3_beach:
     play sound failure
     host "Ooo... too bad!"
     host snarky "From the top!"
-    scene black with dissolve
-    play music shipwreck fadeout 3 fadein 1.0
+    call sleep
     "Dammit. We were so close..."
     hostage "{cps=.5}Remember the art gallery!...{/cps}"
     jump start

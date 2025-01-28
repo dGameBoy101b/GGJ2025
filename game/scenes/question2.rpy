@@ -35,8 +35,7 @@ label question2_wrong:
     #maybe the host chants some kind of catch phrase?
     "She turns to me instead. The fire of determination lighting in her eyes and searing my skin."
     hostage "Damn it! You better remember my fucking name next time!"
-    scene black with dissolve
-    play music shipwreck fadeout 3 fadein 1
+    call sleep
     "My mind becomes drowsy. Thoughts slipping away like air in drowning lungs."
     hostage "{cps=*.5}It's Cordelia and don't fucking forget!{/cps}"
     jump start
