@@ -15,3 +15,9 @@ init:
                 "characters/Cordelia/Cordelia_Sprites/Cordelia_Sprite_Upset.PNG"
             attribute proud:
                 "characters/Cordelia/Cordelia_Sprites/Cordelia_Sprite_Proud.PNG"
+        attribute bubble:
+            ysize .9
+            crop (0, 0, 1., .8)
+            xoffset -100
+            yoffset 108
+            "overlays/Bubble.PNG"
