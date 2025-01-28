@@ -8,7 +8,7 @@ init:
     image eye closed = At("overlays/Blink Close.PNG", eye_transform)
     image eye none = Null()
 
-    define eye_delay = .25
+    define eye_delay = .5
 
     image eye closing:
         "eye open" with Dissolve(eye_delay)
@@ -17,7 +17,7 @@ init:
         pause eye_delay
         "eye closed" with Dissolve(eye_delay)
         pause eye_delay
-        "eye none" with Dissolve(eye_delay)
+        "black" with Dissolve(eye_delay)
 
     image eye opening:
         "eye closed" with Dissolve(eye_delay)
